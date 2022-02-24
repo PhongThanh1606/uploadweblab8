@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    font-family: 'Spartan', sans-serif;
+    color: black
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background: #FFA1C9;
+    color: black;
+    line-height: 40px;
+}
+
+/* Css cho menu ngang  */
+.menu-logo{
+    height: 60px;
+    position: relative;
+    background: #FBE5E5;
+}
+
+.menu-logo .logo{
+    position: absolute;
+    left: 80px;
+}
+
+.menu-logo nav{
+    position: absolute;
+    right: 10px;
+}
+
+.menu-logo nav a{ 
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 0 30px;
+}
+
+.menu-logo nav a:hover {
+    color: #E60965;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all .3s linear;
+}
+
+.banner{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+/* css cho bán chạy */
+.product .heading{
+    font-size: 30px;
+    color: #ca3475;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.product .list-product .product-item{
+    width: 22%;
+    margin: 20px 20px;
+    display: inline-block ;
+}
+
+.product .list-product .product-item img{
+    max-width: 100%;
+}
+
+/* Css tin tuc  */
+
+.tintuc .heading{
+    font-size: 30px;
+    color: #ca3475;
+    text-align: center;
+    margin: 40px 0;
+}
+.tintuc .new-item{
+    width: 30%;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.tintuc .new-item img{
+    max-width: 100%;
+}
+
+/* Css cho footer */
+
+footer{
+    width: 100%;
+    background: #E60965;
+    color: white;
+    text-align: center;
+}
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+footer .footer-item h3 {
+    margin: 30px 0;
+}
+
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+footer .about h3{
+    margin-top: 30px;
+}
+
+.tacgia{
+    text-align: center;
+    background: #E60965;
+    color: white;
+    padding: 10px;
+}
+
+.tacgia p{
+    margin-top: 10px;
+}
